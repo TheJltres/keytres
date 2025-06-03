@@ -1,0 +1,118 @@
+{
+    "manufacturer": "Jose Luis",
+    "keyboard_name": "thejltres",
+    "maintainer": "TheJltres",
+    "url": "",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true
+    },
+    "matrix_pins": {
+        "cols": ["GP11", "GP10", "GP9", "GP8", "GP7", "GP6", "GP5", "GP13", "GP12"],
+        "rows": ["GP3", "GP4", "GP22", "GP21", "GP20", "GP18", "GP19"]
+    },
+    "processor": "RP2040",
+    "split": {
+        "enabled": true,
+        "soft_serial_pin": "GP1",
+        "serial": {
+            "driver": "vendor"
+        }
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "label":"\u00aa", "x":0.25, "y":0},
+                {"matrix": [0, 1], "label":"1", "x":1.25, "y":0},
+                {"matrix": [0, 2], "label":"2", "x":2.25, "y":0},
+                {"matrix": [0, 3], "label":"3", "x":3.25, "y":0},
+                {"matrix": [0, 4], "label":"4", "x":4.25, "y":0},
+                {"matrix": [0, 5], "label":"5", "x":5.25, "y":0},
+                {"matrix": [0, 6], "label":"\u00c7", "x":6.25, "y":0},
+
+                {"matrix": [1, 0], "label":"Tab", "x":0, "y":1, "w":1.25},
+                {"matrix": [1, 1], "label":"q", "x":1.25, "y":1},
+                {"matrix": [1, 2], "label":"w", "x":2.25, "y":1},
+                {"matrix": [1, 3], "label":"e", "x":3.25, "y":1},
+                {"matrix": [1, 4], "label":"r", "x":4.25, "y":1},
+                {"matrix": [1, 5], "label":"t", "x":5.25, "y":1},
+                {"matrix": [1, 6], "label":">", "x":6.25, "y":1},
+
+                {"matrix": [2, 0], "label":"Esc", "x":0, "y":2, "w":1.25},
+                {"matrix": [2, 1], "label":"a", "x":1.25, "y":2},
+                {"matrix": [2, 2], "label":"s", "x":2.25, "y":2},
+                {"matrix": [2, 3], "label":"d", "x":3.25, "y":2},
+                {"matrix": [2, 4], "label":"f", "x":4.25, "y":2},
+                {"matrix": [2, 5], "label":"g", "x":5.25, "y":2},
+                {"matrix": [2, 6], "label":"Del", "x":6.25, "y":2},
+
+                {"matrix": [3, 0], "label":"L. Shift", "x":0, "y":3, "w":1.25},
+                {"matrix": [3, 1], "label":"z", "x":1.25, "y":3},
+                {"matrix": [3, 2], "label":"x", "x":2.25, "y":3},
+                {"matrix": [3, 3], "label":"c", "x":3.25, "y":3},
+                {"matrix": [3, 4], "label":"v", "x":4.25, "y":3},
+                {"matrix": [3, 5], "label":"b", "x":5.25, "y":3},
+
+                {"matrix": [4, 0], "label":"GUI", "x":0.25, "y":4},
+                {"matrix": [4, 1], "label":"-", "x":1.25, "y":4},
+                {"matrix": [4, 2], "label":"+", "x":2.25, "y":4},
+                {"matrix": [4, 3], "label":"NO", "x":3.25, "y":4},
+
+                {"matrix": [5, 8], "label":"L. Ctrl", "x":5.5, "y":5, "w":1.5},
+                {"matrix": [5, 7], "label":"Spc", "x":7, "y":5, "w":1.5},
+
+                {"matrix": [6, 8], "label":"Pg. Up", "x":5.5, "y":6},
+                {"matrix": [6, 7], "label":"Pg. Dn", "x":7, "y":6},
+
+                {"matrix": [7, 6], "label":"?", "x":11.25, "y":0},
+                {"matrix": [7, 5], "label":"6", "x":12.25, "y":0},
+                {"matrix": [7, 4], "label":"7", "x":13.25, "y":0},
+                {"matrix": [7, 3], "label":"8", "x":14.25, "y":0},
+                {"matrix": [7, 2], "label":"9", "x":15.25, "y":0},
+                {"matrix": [7, 1], "label":"0", "x":16.25, "y":0},
+                {"matrix": [7, 0], "label":"'", "x":17.25, "y":0},
+
+                {"matrix": [8, 6], "label":"]", "x":11.25, "y":1},
+                {"matrix": [8, 5], "label":"y", "x":12.25, "y":1},
+                {"matrix": [8, 4], "label":"u", "x":13.25, "y":1},
+                {"matrix": [8, 3], "label":"i", "x":14.25, "y":1},
+                {"matrix": [8, 2], "label":"o", "x":15.25, "y":1},
+                {"matrix": [8, 1], "label":"p", "x":16.25, "y":1},
+                {"matrix": [8, 0], "label":"`", "x":17.25, "y":1, "w":1.25},
+
+                {"matrix": [9, 6], "label":"[", "x":11.25, "y":2},
+                {"matrix": [9, 5], "label":"h", "x":12.25, "y":2},
+                {"matrix": [9, 4], "label":"j", "x":13.25, "y":2},
+                {"matrix": [9, 3], "label":"k", "x":14.25, "y":2},
+                {"matrix": [9, 2], "label":"l", "x":15.25, "y":2},
+                {"matrix": [9, 1], "label":"ñ", "x":16.25, "y":2},
+                {"matrix": [9, 0], "label":"'", "x":17.25, "y":2, "w":1.25},
+
+                {"matrix": [10, 5], "label":"n", "x":12.25, "y":3},
+                {"matrix": [10, 4], "label":"m", "x":13.25, "y":3},
+                {"matrix": [10, 3], "label":",", "x":14.25, "y":3},
+                {"matrix": [10, 2], "label":".", "x":15.25, "y":3},
+                {"matrix": [10, 1], "label":"-", "x":16.25, "y":3},
+                {"matrix": [10, 0], "label":"R. Shift", "x":17.25, "y":3, "w":1.25},
+
+                {"matrix": [11, 3], "label":"R. GR", "x":14.25, "y":4},
+                {"matrix": [11, 2], "label":"*", "x":15.25, "y":4},
+                {"matrix": [11, 1], "label":"/", "x":16.25, "y":4},
+                {"matrix": [11, 0], "label":"GUI", "x":17.25, "y":4},
+
+                {"matrix": [12, 7], "label":"R. Ctrl", "x":11.5, "y":5, "w":1.5},
+                {"matrix": [12, 8], "label":"BkSP", "x":10, "y":5, "w":1.5},
+
+                {"matrix": [13, 7], "label":"Home", "x":10.5, "y":6},
+                {"matrix": [13, 8], "label":"End", "x":12, "y":6}
+
+            ]
+        }
+    }
+}
